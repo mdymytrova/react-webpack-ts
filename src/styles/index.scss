@@ -1,6 +1,17 @@
 $mainColor: teal;
+$accentColor: white;
 
 h1 {
     color: $mainColor;
     text-align: center;
+}
+
+.box {
+    width: 250px;
+    height: 180px;
+    color: $accentColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
